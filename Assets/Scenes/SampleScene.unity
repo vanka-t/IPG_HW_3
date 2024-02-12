@@ -362,6 +362,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectablePrefab: {fileID: 8257193264500365829, guid: 357106465981a406d983fa857eeff558, type: 3}
+  ScoreText: {fileID: 1791768973}
 --- !u!4 &514039327
 Transform:
   m_ObjectHideFlags: 0
@@ -371,7 +372,7 @@ Transform:
   m_GameObject: {fileID: 514039325}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.9499998, y: 2, z: 25.83}
+  m_LocalPosition: {x: 3.61, y: 2, z: 1.19}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -575,7 +576,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 688169483}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0.7158402, z: -0, w: 0.6982642}
   m_LocalPosition: {x: 4.1, y: 0.17, z: 3.85}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -585,7 +586,7 @@ Transform:
   - {fileID: 497975911}
   - {fileID: 125028055}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -91.424, z: 0}
 --- !u!114 &688169485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -605,7 +606,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   orientation: {fileID: 288948047}
-  target: 0
 --- !u!54 &688169486
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -646,6 +646,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectSound: {fileID: 1615031249}
+  Score: 0
   ScoreText: {fileID: 1791768973}
   HealthText: {fileID: 578849148}
 --- !u!1 &705507993
